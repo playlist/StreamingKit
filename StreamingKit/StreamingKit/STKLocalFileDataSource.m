@@ -108,6 +108,7 @@
         [self unregisterForEvents];
 
         CFReadStreamClose(stream);
+        CFRelease(stream);
         
         stream = 0;
     }
