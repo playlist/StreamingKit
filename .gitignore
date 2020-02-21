@@ -24,4 +24,5 @@ Icon?
 ehthumbs.db
 Thumbs.db
 xcuserdata
-DerivedData/*
+xcshareddata
+*.idea
